@@ -7,6 +7,8 @@ import HookUseState from "./view/HookUseState";
 import Formulaire from "./view/Formulaire";
 import Flux from "./view/Flux";
 import { Exercice } from "./view/Exercice";
+import { HookUseEffect } from "./view/HookUseEffect";
+import { RequeteApi } from "./view/RequeteApi";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/use-state" element={<HookUseState />} />
           <Route path="/formulaire" element={<Formulaire />} />
           <Route path="/flux" element={<Flux />} />
+          <Route path="/hook-use-effect" element={<HookUseEffect />} />
+          <Route path="/requete" element={<RequeteApi />} />
           <Route path="/exercice" element={<Exercice />} />
         </Routes>
       </BrowserRouter>

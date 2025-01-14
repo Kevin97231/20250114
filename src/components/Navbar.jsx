@@ -35,6 +35,12 @@ function Navbar() {
               <Link to={"/flux"}>Les flux de données</Link>
             </li>
             <li>
+              <Link to={"/hook-use-effect"}>Le hook useEffect</Link>
+            </li>
+            <li>
+              <Link to={"/requete"}>Requetes aux API</Link>
+            </li>
+            <li>
               <Link to={"/exercice"}>Exercice</Link>
             </li>
           </ul>
