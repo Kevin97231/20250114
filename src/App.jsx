@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import JsxTheorie from "./components/JsxTheorie";
 import Navbar from "./components/Navbar";
+import HookUseState from "./view/HookUseState";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<JsxTheorie />}></Route>
-          <Route path="/test" element={<>Ma page test</>}></Route>
+          <Route path="/use-state" element={<HookUseState />}></Route>
         </Routes>
       </BrowserRouter>
     </>
