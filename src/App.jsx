@@ -2,12 +2,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import JsxTheorie from "./components/JsxTheorie";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <p>NavBar</p>
+        <Navbar />
 
         <Routes>
           <Route path="/" element={<JsxTheorie />}></Route>
