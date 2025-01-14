@@ -34,6 +34,9 @@ function Navbar() {
             <li>
               <Link to={"/flux"}>Les flux de données</Link>
             </li>
+            <li>
+              <Link to={"/exercice"}>Exercice</Link>
+            </li>
           </ul>
         </div>
       </div>
