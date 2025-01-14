@@ -28,6 +28,9 @@ function Navbar() {
             <li>
               <Link to={"/use-state"}>Le hook useState</Link>
             </li>
+            <li>
+              <Link to={"/formulaire"}>Les formulaires</Link>
+            </li>
           </ul>
         </div>
       </div>

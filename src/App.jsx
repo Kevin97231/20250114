@@ -4,6 +4,7 @@ import "./App.css";
 import JsxTheorie from "./components/JsxTheorie";
 import Navbar from "./components/Navbar";
 import HookUseState from "./view/HookUseState";
+import Formulaire from "./view/Formulaire";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" element={<JsxTheorie />}></Route>
-          <Route path="/use-state" element={<HookUseState />}></Route>
+          <Route path="/" element={<JsxTheorie />} />
+          <Route path="/use-state" element={<HookUseState />} />
+          <Route path="/formulaire" element={<Formulaire />} />
         </Routes>
       </BrowserRouter>
     </>
