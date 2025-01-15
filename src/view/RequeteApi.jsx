@@ -2,7 +2,7 @@ import { ExempleRequete } from "../components/ExempleRequete";
 
 export const RequeteApi = () => {
   return (
-    <>
+    <section className="m-5">
       <h1>Les requêtes aux API</h1>
       <h2>Rappel</h2>
       <p>
@@ -46,6 +46,6 @@ export const RequeteApi = () => {
         </li>
       </ul>
       <ExempleRequete />
-    </>
+    </section>
   );
 };
