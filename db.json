@@ -30,34 +30,6 @@
     },
     {
       "name": "Banane",
-      "price": "3",
-      "number": "15",
-      "category": "Vegetables",
-      "id": "ec50"
-    },
-    {
-      "id": "7e0d",
-      "category": "Fruits",
-      "name": "TestNumber",
-      "number": 15,
-      "price": "2"
-    },
-    {
-      "id": "b9cb",
-      "category": "Fruits",
-      "name": "TestNumber",
-      "number": 15,
-      "price": "2"
-    },
-    {
-      "id": "24e4",
-      "category": "Vegetables",
-      "name": "Banane",
-      "number": 15,
-      "price": 1.2
-    },
-    {
-      "name": "Bananeee",
       "price": "1",
       "number": 15,
       "category": "Vegetables",
@@ -85,11 +57,11 @@
       "price": null
     },
     {
-      "id": "f2af",
-      "category": "Vegetables",
-      "name": "Zucchini",
-      "number": 7,
-      "price": null
+      "name": "Zucchini_2",
+      "price": "10",
+      "number": "10",
+      "category": "Veg",
+      "id": "f2af"
     },
     {
       "id": "6227",

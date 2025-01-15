@@ -41,6 +41,9 @@ function Navbar() {
               <Link to={"/requete"}>Requetes aux API</Link>
             </li>
             <li>
+              <Link to={"/hook-perso"}>Les hooks personnalisés</Link>
+            </li>
+            <li>
               <Link to={"/exercice"}>Exercice fruits/légumes</Link>
             </li>
             <li>
