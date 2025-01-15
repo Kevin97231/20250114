@@ -9,6 +9,7 @@ import Flux from "./view/Flux";
 import { Exercice } from "./view/Exercice";
 import { HookUseEffect } from "./view/HookUseEffect";
 import { RequeteApi } from "./view/RequeteApi";
+import { ExerciceApi } from "./view/ExerciceApi";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/hook-use-effect" element={<HookUseEffect />} />
           <Route path="/requete" element={<RequeteApi />} />
           <Route path="/exercice" element={<Exercice />} />
+          <Route path="/exercice-api" element={<ExerciceApi />} />
         </Routes>
       </BrowserRouter>
     </>

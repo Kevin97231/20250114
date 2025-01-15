@@ -41,7 +41,10 @@ function Navbar() {
               <Link to={"/requete"}>Requetes aux API</Link>
             </li>
             <li>
-              <Link to={"/exercice"}>Exercice</Link>
+              <Link to={"/exercice"}>Exercice fruits/légumes</Link>
+            </li>
+            <li>
+              <Link to={"/exercice-api"}>Exercice API</Link>
             </li>
           </ul>
         </div>
