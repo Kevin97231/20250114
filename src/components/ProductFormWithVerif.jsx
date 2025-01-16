@@ -2,7 +2,11 @@
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 
-export const ProductFormWithVerif = ({ updateMethod, productToModify }) => {
+export const ProductFormWithVerif = ({
+  updateMethod,
+  productToModify,
+  closeModal,
+}) => {
   const {
     register,
     handleSubmit,
@@ -14,6 +18,7 @@ export const ProductFormWithVerif = ({ updateMethod, productToModify }) => {
   const onSubmit = (product) => {
     console.log("Formulaire soumis !");
     updateMethod(productToModify.id, product);
+    closeModal();
   };
 
   useEffect(() => {

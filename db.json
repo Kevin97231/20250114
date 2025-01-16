@@ -43,11 +43,11 @@
       "id": "0095"
     },
     {
-      "id": "13c7",
-      "category": "Vegetables",
       "name": "Zucchini",
+      "price": "5",
       "number": 7,
-      "price": null
+      "category": "Vegetables",
+      "id": "13c7"
     },
     {
       "id": "6227",

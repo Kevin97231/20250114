@@ -18,7 +18,6 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-
         <Routes>
           <Route path="/" element={<JsxTheorie />} />
           <Route path="/use-state" element={<HookUseState />} />

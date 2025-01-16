@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Modal } from "./Modal";
-import { ProductForm } from "./ProductForm";
 import { ProductFormWithVerif } from "./ProductFormWithVerif";
 
 /* eslint-disable react/prop-types */
@@ -19,6 +18,11 @@ export const ProductsTable = ({ products, removeFunction, updateFunction }) => {
     setProductToModify(product);
     const modal = document.getElementById("my_modal");
     if (modal) modal.showModal();
+  };
+
+  const closeModal = () => {
+    const modal = document.getElementById("my_modal");
+    if (modal) modal.close();
   };
 
   return (
@@ -66,6 +70,7 @@ export const ProductsTable = ({ products, removeFunction, updateFunction }) => {
           <ProductFormWithVerif
             updateMethod={updateFunction}
             productToModify={productToModify}
+            closeModal={closeModal}
           />
         }
       />
