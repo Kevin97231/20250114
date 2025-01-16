@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "name": "Zucchini",
+      "name": "Poire",
       "price": "10",
       "number": "10",
-      "category": "Vegetables",
+      "category": "Fruits",
       "id": "f774"
     },
     {
@@ -43,25 +43,11 @@
       "id": "0095"
     },
     {
-      "name": "Zucchini",
-      "price": "8",
-      "number": "6",
-      "category": "Vegetables",
-      "id": "43bf"
-    },
-    {
       "id": "13c7",
       "category": "Vegetables",
       "name": "Zucchini",
       "number": 7,
       "price": null
-    },
-    {
-      "name": "Zucchini_2",
-      "price": "10",
-      "number": "10",
-      "category": "Veg",
-      "id": "f2af"
     },
     {
       "id": "6227",
