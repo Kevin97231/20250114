@@ -6,8 +6,8 @@ export const HookUseMemo = () => {
     <section className="pt-20">
       <h1>Le hook useMemo</h1>
 
-      <WithUseMemo />
       <WithoutUseMemo />
+      <WithUseMemo />
     </section>
   );
 };
