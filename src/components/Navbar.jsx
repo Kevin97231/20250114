@@ -44,6 +44,9 @@ function Navbar() {
               <Link to={"/hook-perso"}>Les hooks personnalisés</Link>
             </li>
             <li>
+              <Link to={"/hook-use-memo"}>Le hook useMemo</Link>
+            </li>
+            <li>
               <Link to={"/exercice"}>Exercice fruits/légumes</Link>
             </li>
             <li>
