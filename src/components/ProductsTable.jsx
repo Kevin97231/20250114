@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Modal } from "./Modal";
 import { ProductForm } from "./ProductForm";
+import { ProductFormWithVerif } from "./ProductFormWithVerif";
 
 /* eslint-disable react/prop-types */
 export const ProductsTable = ({ products, removeFunction, updateFunction }) => {
@@ -58,7 +59,11 @@ export const ProductsTable = ({ products, removeFunction, updateFunction }) => {
       </table>
       <Modal
         content={
-          <ProductForm
+          // <ProductForm
+          //   updateMethod={updateFunction}
+          //   productToModify={productToModify}
+          // />
+          <ProductFormWithVerif
             updateMethod={updateFunction}
             productToModify={productToModify}
           />
